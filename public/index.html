@@ -7,12 +7,12 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> ubermobiledev &middot; ubermobiledev </title>
+  <title> uberDev &middot; uberDev </title>
 
   
-  <link rel="stylesheet" href="http://www.ubermobiledev.com/css/poole.css">
-  <link rel="stylesheet" href="http://www.ubermobiledev.com/css/syntax.css">
-  <link rel="stylesheet" href="http://www.ubermobiledev.com/css/hyde.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/poole.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/hyde.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="/favicon.ico">
 
   
-  <link href="http://www.ubermobiledev.com/index.xml" rel="alternate" type="application/rss+xml" title="ubermobiledev" />
+  <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="uberDev" />
 </head>
 
 <body>
@@ -28,7 +28,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>ubermobiledev</h1>
+      <h1>uberDev</h1>
       <p class="lead">
       An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
       </p>
@@ -50,7 +50,7 @@
       
   <div class="post">
     <h1 class="post-title">
-      <a href="http://www.ubermobiledev.com/post/first">
+      <a href="http://localhost:1313/post/first">
         first
       </a>
     </h1>
@@ -58,11 +58,23 @@
     <span class="post-date">Sun, Aug 3, 2014</span>
 
     
+
+<p>#headline</p>
+
+<h2 id="toc_0">headline</h2>
+
+<p>more things are happening!!! -&gt;</p>
+
+<p><br/>
+<br/></p>
+
+<h3 id="toc_1">headline</h3>
+
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="http://www.ubermobiledev.com/about">
+      <a href="http://localhost:1313/about">
         about
       </a>
     </h1>
@@ -75,6 +87,14 @@
 
 <p>Some Content</p>
 
+<ul>
+<li>one</li>
+<li>two</li>
+<li>three</li>
+</ul>
+
+<p>*</p>
+
 <p>,ore
 This is pretty cool. But better is something else. and more</p>
 
@@ -83,10 +103,25 @@ This is pretty cool. But better is something else. and more</p>
 <p>kjljlk
 kjlk</p>
 
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;section</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;main&quot;</span><span style="color: #f92672">&gt;</span>
+  <span style="color: #f92672">&lt;div&gt;</span>
+   <span style="color: #f92672">&lt;h1</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;title&quot;</span><span style="color: #f92672">&gt;</span>{{ .Title }}<span style="color: #f92672">&lt;/h1&gt;</span>
+    {{ range .Data.Pages }}
+        {{ .Render &quot;summary&quot;}}
+    {{ end }}
+  <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/section&gt;</span>
+</pre></div>
+
+<p>sfds</p>
+
   </div>
   
 </div>
 
 
-  </body>
+  <script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>

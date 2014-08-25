@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Recent Content on ubermobiledev </title>
+      <title>Recent Content on uberDev </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://www.ubermobiledev.com/index.xml</link>
+    <link>http://localhost:1313/index.xml</link>
     <language>en-us</language>
     
     
@@ -11,24 +11,44 @@
     
     <item>
       <title>first</title>
-      <link>http://www.ubermobiledev.com/post/first</link>
+      <link>http://localhost:1313/post/first</link>
       <pubDate>Sun, 03 Aug 2014 08:19:24 UTC</pubDate>
       
-      <guid>http://www.ubermobiledev.com/post/first</guid>
-      <description></description>
+      <guid>http://localhost:1313/post/first</guid>
+      <description>
+
+&lt;p&gt;#headline&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;headline&lt;/h2&gt;
+
+&lt;p&gt;more things are happening!!! -&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;headline&lt;/h3&gt;
+</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>http://www.ubermobiledev.com/about</link>
+      <link>http://localhost:1313/about</link>
       <pubDate>Sun, 03 Aug 2014 08:17:57 UTC</pubDate>
       
-      <guid>http://www.ubermobiledev.com/about</guid>
+      <guid>http://localhost:1313/about</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;A headline&lt;/h2&gt;
 
 &lt;p&gt;Some Content&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;one&lt;/li&gt;
+&lt;li&gt;two&lt;/li&gt;
+&lt;li&gt;three&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*&lt;/p&gt;
 
 &lt;p&gt;,ore
 This is pretty cool. But better is something else. and more&lt;/p&gt;
@@ -37,6 +57,18 @@ This is pretty cool. But better is something else. and more&lt;/p&gt;
 
 &lt;p&gt;kjljlk
 kjlk&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;section&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;main&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+   &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;h1&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Title }}&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    {{ range .Data.Pages }}
+        {{ .Render &amp;quot;summary&amp;quot;}}
+    {{ end }}
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;sfds&lt;/p&gt;
 </description>
     </item>
     
